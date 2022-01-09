@@ -6,6 +6,7 @@
 export {
     creatWebpPhoto,
     processPhoto,
-    processPhotoS3SNS,
+    processPhotoS3SNSForCreate,
+    processPhotoS3SNSForDelete,
     resizePhoto
 } from './libs/photo';
